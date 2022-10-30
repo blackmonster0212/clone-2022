@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title> Welcome to KaKao Talk </title>
+    <title> Friends - Welcome to KaKao Talk </title>
     <script src="https://kit.fontawesome.com/e3d200df32.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -28,18 +28,29 @@
         <!-- Lightning Icon--> 
      </div>
    </div> 
-
-   <header class="welcome-header">
-     <h1 class="welcome-header__title"> Welcome to KaKaoTalk </h1>
-     <p class="welcome-header__text"> If you have a KaKao Account, log in with your email or phone number.</p>    
-   </header>
-
-   <form action="friends.html" method="get" id="login-form">
-      <input type="text" placeholder="Email or phone number">
-      <input type="password" placeholder="Password">
-      <input type="submit" value="Log In" />      
-      <a href="#">Find KaKao Account or Password</a>
-   </form>
+  <nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__btn"><a class="nav__link" href="friends.html"><i class="fa-solid fa-user fa-2x"></i></a></li>
+        <li class="nav__btn">
+            <a class="nav__link" href="#">
+            <span class="nav_notification">1</span>
+            <i class="fa-regular fa-comment fa-2x"></i>
+        </a>
+      </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="#">
+                <i class="fa-sharp fa-solid fa-magnifying-glass fa-2x"></i>
+            </a>
+        </li>
+        <li class="nav__btn">
+            <a class="nav__link" href="#">
+                <span class="nav_dot">.</span>
+                <i class="fa-solid fa-ellipsis fa-2x"></i>
+            </a>
+        </li>
+    </ul>
+  </nav>
+    
    
 </body>
 </html>
