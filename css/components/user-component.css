@@ -33,19 +33,25 @@
 
 .user-component__column:last-child {
     margin-right : 15px;
-    position : relative;
+
 }
 
+
+.user-component__music {
+     display : block;
+     text-align: center;
+     width : 230px;
+     border : 2px solid rgb(3,199,90);
+     border-radius : 150px;
+     padding : 10px 0px;
+     font-size : 15px;
+     color : rgba(0,0,0,0.5);
+    }
+
 .user-alarm {
-    display : flex;
-    justify-content: center;
-    background-color: tomato;
-    width: 20px;
-    height : 20px;
-    border-radius: 10px;
-    color : white;
-    font-weight : 300;
-    position : absolute;
-    right : -2px;
-    top : -12px;
+    margin-right : 7px;
+}     
+
+.user-component__music i{
+ color : rgb(3,199,90);
 }
