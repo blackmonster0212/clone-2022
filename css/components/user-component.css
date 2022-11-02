@@ -36,22 +36,21 @@
 
 }
 
-
 .user-component__music {
-     display : block;
-     text-align: center;
-     width : 230px;
-     border : 2px solid rgb(3,199,90);
-     border-radius : 150px;
-     padding : 10px 0px;
-     font-size : 15px;
-     color : rgba(0,0,0,0.5);
-    }
+    display : flex;
+    justify-content: flex-end;
+    border : 1.2px solid rgb(1,185,37);
+    border-radius: 14px;
+    padding : 7px 5px;
+}
 
-.user-alarm {
-    margin-right : 7px;
-}     
 
-.user-component__music i{
- color : rgb(3,199,90);
+.user-component__music span {
+    margin-right : 4px;
+    font-size : 13.5px;
+}
+
+.user-component__music i {
+    font-size : 13px;
+    color : rgb(1,185,37);
 }
