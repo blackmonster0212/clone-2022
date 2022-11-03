@@ -1,0 +1,29 @@
+.friends-screen__chat {
+    padding : 0px var(--horizontal-space);
+    padding-top : 100px;
+}
+
+.user-component__chat {
+    display : flex;
+    flex-direction : column;
+    align-items: center;
+    justify-content: center;
+}
+
+.user-component__time {
+    margin-bottom : 5px;
+    font-size : 15px;
+    color : rgba(0,0,0,0.5);
+}
+
+.user-component__message {
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    background-color: tomato;
+    border-radius: 50%;
+    color : white;
+    width : 23px;
+    height : 23px;
+    font-size : 17px;
+}

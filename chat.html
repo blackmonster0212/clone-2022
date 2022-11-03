@@ -28,7 +28,7 @@
    </div> 
    
    <header class="screen-header">
-    <h1 class="screen-header__title"> Friends </h1>
+    <h1 class="screen-header__title"> Chats </h1>
     <div class="screen-header__icons">
         <span><i class="fa-sharp fa-solid fa-magnifying-glass fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
@@ -36,41 +36,19 @@
     </div>
     </header>
   
-  <a id="friends-display-link">
-    <div class="friends-display-box">
-    <i class="fa-solid fa-circle-info"></i> Friend's Names Display
-    <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </div>  
-  </a>
-
-  <main class="friends-screen">
-
-  <div class="user-component">
-    <div class="user-component__column">
-       <img src="screenshot/11.png" class="user-component__avatar user-component__avatar--xl">
-       <div class="user-component__text">
-         <h4 class="user-component__title">Hello Lion</h4>
-         <h6 class="user-component__subtitle">My name is Lion hahaha</h6> 
-       </div>
-    </div>  
-    <div class="user-component__column"></div>
-  </div>
-  
-  <div class="friends-screen__channel">
-   <div class="friends-screen__channel-header">
-    <span>떡잎마을 친구들</span><i class="fa-solid fa-chevron-up fa-xs"></i>
-   </div>
+  <main class="friends-screen__chat">
    <div class="user-component">
     <div class="user-component__column">
        <img src="screenshot/12.png" class="user-component__avatar user-component__avatar--xl">
        <div class="user-component__text">
          <h4 class="user-component__title">Lim Se Hee</h4>
-         <h6 class="user-component__subtitle">I Love JJANG-GU!!</h6> 
+         <h6 class="user-component__subtitle">짱구 어딨는지 봤오?</h6> 
        </div>
     </div>
     <div class="user-component__column">
-       <div class="user-component__music">
-         <span class="user-alarm">벌써 일년 - 브라운아이즈</span><i class="fa-sharp fa-solid fa-play"></i>
+       <div class="user-component__chat">
+         <div class="user-component__time">22:40</div>
+         <span class="user-component__message">3</span>
        </div>
     </div>
   </div>
@@ -79,41 +57,62 @@
        <img src="screenshot/13.png" class="user-component__avatar user-component__avatar--xl">
        <div class="user-component__text">
          <h4 class="user-component__title">Hun-e</h4>
-         <h6 class="user-component__subtitle">1 shot 1 kill</h6> 
+         <h6 class="user-component__subtitle">하..형님이 그립다</h6> 
        </div>
     </div>
+    <div class="user-component__column">
+        <div class="user-component__chat">
+          <div class="user-component__time">22:00</div>
+          <span class="user-component__message">2</span>
+        </div>
+     </div>
+   </div>
   </div>
   <div class="user-component">
     <div class="user-component__column">
        <img src="screenshot/14.png" class="user-component__avatar user-component__avatar--xl">
        <div class="user-component__text">
          <h4 class="user-component__title">Chul-soo</h4>
-         <h6 class="user-component__subtitle">신짱구...이.. 개X끼..</h6> 
+         <h6 class="user-component__subtitle">짱구가 내꺼 또 쌥여감....아 미치겠음</h6> 
        </div>
     </div>
+    <div class="user-component__column">
+        <div class="user-component__chat">
+          <div class="user-component__time">21:34</div>
+          <span class="user-component__message">4</span>
+        </div>
+     </div>
+   </div>
   </div>
   <div class="user-component">
     <div class="user-component__column">
        <img src="screenshot/15.png" class="user-component__avatar user-component__avatar--xl">
        <div class="user-component__text">
          <h4 class="user-component__title">Yu-Ri</h4>
-         <h6 class="user-component__subtitle">당분간 건들지 마라 진짜..</h6> 
+         <h6 class="user-component__subtitle">아 몰라 기분 안좋아. 개때리고 싶음</h6> 
        </div>
      </div>
-   <div class="user-component__column">
-    <div class="user-component__music">
-      <span class="user-alarm">말 달리자 - 크라잉넛</span><i class="fa-sharp fa-solid fa-play"></i>
-    </div>
-   </div>  
+     <div class="user-component__column">
+        <div class="user-component__chat">
+          <div class="user-component__time">21:00</div>
+          <span class="user-component__message">2</span>
+        </div>
+     </div>
   </div>
   <div class="user-component">
     <div class="user-component__column">
        <img src="screenshot/16.png" class="user-component__avatar user-component__avatar--xl">
        <div class="user-component__text">
          <h4 class="user-component__title">MYEONG-GU</h4>
-         <h6 class="user-component__subtitle">..............?</h6> 
+         <h6 class="user-component__subtitle">나는....잘...모르겠어...</h6> 
        </div>
     </div>
+    <div class="user-component__column">
+        <div class="user-component__chat">
+          <div class="user-component__time">21:10</div>
+          <span class="user-component__message">3</span>
+        </div>
+     </div>
   </div>
 </main>
 
@@ -121,13 +120,13 @@
     <ul class="nav__list">
         <li class="nav__btn">
           <a class="nav__link" href="friends.html">
-            <i class="fa-solid fa-user fa-2x"></i>
+            <i class="fa-regular fa-user fa-2x"></i>
           </a>
         </li>
         <li class="nav__btn">
             <a class="nav__link" href="chat.html">
             <span class="nav_notification">14</span>
-            <i class="fa-regular fa-comment fa-2x"></i>
+            <i class="fa-solid fa-comment fa-2x"></i>
          </a>
         </li>
         <li class="nav__btn">
