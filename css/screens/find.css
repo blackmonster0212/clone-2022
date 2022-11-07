@@ -1,0 +1,139 @@
+.find-screen__chat {
+    padding : 0px var(--horizontal-space);
+    padding-top : 100px;
+}
+
+.find-option__main {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom : 40px;
+}
+
+.find-option__qrcode, .find-option__contacts,
+.find-option__addbyid, .find-option__invite {
+    width:20%;
+    display : flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.find-option__qrcode i, .find-option__contacts i,
+.find-option__addbyid i, .find-option__invite i{
+     margin-top : 7px;
+     margin-bottom : 15px;
+     font-size : 28px;
+}
+
+.recommend_friends {
+     padding : 20px 0px;
+     border-top : 0.5px solid rgb(222,225,230);
+     opacity: 0.7;
+     font-size : 20px;
+     font-weight : 450;
+}
+
+.recommend_friends_center {
+    padding : 120px 0px;
+    text-align: center;
+    opacity: 0.7;
+    font-size : 20px;
+    font-weight : 450;
+}
+
+.find_chat {
+    padding : 20px 0px;
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid rgb(222,225,230);
+}
+
+.find_chat i{
+    margin-left : 5px;
+    align-items: center;
+}
+
+.find_chat span:first-child{
+    opacity: 0.7;
+    font-size : 18px;
+    font-weight : 600;
+}
+
+.find_chat span:nth-child(2){
+    opacity: 0.5;
+    font-size : 16px;
+    font-weight : 400;
+}
+
+.open_chat_header {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top : 15px;
+    padding-bottom : 15px;
+    margin-bottom : 15px;
+    border-bottom: 0.5px solid rgb(222,225,230);
+}
+
+.open_chat_subimage img{
+    width: 30px;
+    height : 30px;
+}
+
+.open_chat_maintext {
+    margin-bottom : 10px;
+    font-size : 20px;
+    font-weight: 550;
+}
+
+.open_chat_subtext {
+    margin-bottom : 7px;
+    font-size : 15px;
+    opacity : 0.7;
+    font-weight : 550;
+}
+
+.open_chat_subtitle {
+    display : flex;
+    align-items: center;
+}
+
+.open_chat_subimage {
+    margin-right : 8px;
+    border-radius: 50%;
+}
+
+.open_chat_members {
+    margin-right : 8px;
+    opacity: 0.7;
+    font-weight: 500;
+}
+
+.open_chat_active {
+    color :deeppink;
+    font-weight: 500;
+}
+
+.open_chat_mainimage img{
+    width: 140px;
+    height: 140px;
+    border-radius: 25px;
+}
+
+.open_chat_mainimage{
+    position : relative;
+}
+
+.chat_heart {
+    position : absolute;
+    left : 65px;
+    bottom : 8px;
+    color : white;
+    background-color: black;
+    opacity: 0.7;
+    padding : 7px 10px;
+    border-radius: 30px;
+}
