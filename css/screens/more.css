@@ -1,0 +1,49 @@
+.more_name{
+    margin-bottom: 8px;
+}
+
+.more_number {
+    position : relative;
+}
+
+.more_number span{
+     margin-left : 8px;
+     display: flex;
+     width : 18px;
+     height: 18px;
+     justify-content: center;
+     position: absolute;
+     color : tomato;
+     border : 1px solid tomato;
+     border-radius: 50%;
+     top : -2px;
+     right : -30px; 
+}
+
+.more_option {
+    margin-top : 35px;
+    padding-top : 15px;
+    display : flex;
+    justify-content: space-between;
+    margin-right : 20px;
+    margin-left : 20px;
+}
+
+
+.more_option:last-child {
+    border-bottom: 1px solid gray;
+    padding-bottom : 80px;
+}
+
+.more_option i{
+    font-size : 45px;
+
+}
+
+.more_option span {
+    font-size : 20px;
+}
+
+.more_option div {
+    width : 68px;
+}
