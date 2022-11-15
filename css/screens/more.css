@@ -31,8 +31,7 @@
 
 
 .more_option:last-child {
-    border-bottom: 1px solid gray;
-    padding-bottom : 80px;
+    padding-bottom : 30px;
 }
 
 .more_option i{
@@ -46,4 +45,43 @@
 
 .more_option div {
     width : 68px;
+}
+
+.suggestions {
+     margin-top : 60px;
+     padding-top : 30px;
+     border-top : 1px solid gray;
+}
+
+.suggestions_headline {
+    margin-bottom : 40px;
+    font-weight : 600;
+    font-size: 19px;
+}
+
+
+.suggestion__item {
+    display : flex;
+    justify-content: space-between;
+}
+
+
+.suggestion__box {
+    display : flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;    
+}
+
+.suggestion__box i{
+    display : flex;
+    background-color: rgb(250,225,0);
+    width : 55px;
+    height : 55px;
+    border-radius: 10px;
+    color : white; 
+    align-items: center;
+    justify-content: center;
+    font-size : 30px;
+    margin-bottom : 10px;
 }

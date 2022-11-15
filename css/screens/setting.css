@@ -1,0 +1,136 @@
+.setting_header {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+}
+
+.screen-header__column {
+    padding: 2px;
+    width: 33%;
+}
+
+.screen-header__column:nth-child(2) {
+    display: flex;
+    justify-content: center;
+}
+
+.screen-header__column:last-child {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.screen-header__column:nth-child(2) span {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.screen-header__column:first-child i {
+    font-size: 20px;
+}
+
+
+.setting-contents_header {
+    padding-top: 110px;
+}
+
+.setting-column {
+    display: flex;
+    align-items: center;
+    margin-bottom: 35px;
+    opacity: 0.8;
+    padding-bottom: 15px;
+    position : relative;
+}
+
+.setting-column i {
+    margin-right: 15px;
+    font-size: 30px;
+}
+
+.setting-column span {
+    font-size: 22px;
+}
+
+.setting-column__external {
+    display : flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 35px;
+    border-bottom: 0.1px solid rgb(222, 225, 230);
+    opacity: 0.8;
+    padding-bottom: 25px;
+}
+
+.setting-column__external > div > div > i {
+    font-size : 30px;
+    margin-right : 15px;
+}
+
+.setting-column__external > div > div > span {
+    font-size : 22px;
+}
+
+.setting-column__external > div > span {
+    font-size : 22px;
+}
+
+.setting-column__list {
+    display : flex;
+    align-items: center;
+}
+
+
+
+.setting-column__new {
+    background-color: tomato;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width : 20px;
+    height : 20px;
+    color : white;
+    border-radius: 50%;
+    font-weight: 300;
+    opacity:1;
+    position : absolute;
+    left : 115px;
+    bottom : 18px;
+}
+
+.setting-column__new > span {
+    font-size : 10px;
+    font-weight : 600;
+    opacity : 1;
+}
+
+.setting-column__external .setting-column__exnew > span {
+    font-size : 10px;
+    font-weight : 600;
+    opacity : 1;
+}
+
+
+.setting-column__list {
+    position : relatve;
+
+}
+
+
+.setting-column__exnew {
+    background-color: tomato;
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    width : 20px;
+    height : 20px;
+    color : white;
+    border-radius: 50%;
+    font-weight: 300;
+    opacity:1;
+    position : absolute;
+    left : 145px;
+    bottom : 275px;
+}
+
